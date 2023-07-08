@@ -1,2 +1,2 @@
-# just-a-stackset-tf
-A CloudFormation StackSet, for deployment with Terraform Cloud.
+# setty
+Manipulate sets of things, for example, find the movies I've seen that you haven't.
