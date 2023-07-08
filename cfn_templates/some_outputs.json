@@ -1,0 +1,35 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+
+  "Description": "Some outputs.",
+
+  "Resources": {
+    "Queue": {
+      "Type": "AWS::SQS::Queue"
+    }
+  },
+
+  "Parameters": {
+    "Param1": {
+      "Description": "Parameter 1",
+      "Type": "String",
+      "Default": "Param1DefaultValue"
+    },
+    "Param2": {
+      "Description": "Parameter 2",
+      "Type": "String",
+      "Default": "Param2DefaultValue"
+    }
+  },
+
+  "Outputs": {
+    "Output1": {
+      "Value": { "Fn::Join": ["", ["output-", { "Ref": "Param1" }]] },
+      "Description": "Output 1"
+    },
+    "Output2": {
+      "Value": { "Fn::Join": ["", ["output-", { "Ref": "Param2" }]] },
+      "Description": "Output 2"
+    }
+  }
+}
