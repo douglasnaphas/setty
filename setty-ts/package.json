@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Manipulate sets.",
   "main": "index.ts",
+  "bin": {
+    "hello": "./hello.ts"
+  },
   "scripts": {
     "test": "jest"
   },
