@@ -1,0 +1,22 @@
+{
+  "name": "setty-ts",
+  "version": "1.0.0",
+  "description": "Manipulate sets.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglasnaphas/setty.git"
+  },
+  "author": "Douglas Naphas <douglasnaphas@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/douglasnaphas/setty/issues"
+  },
+  "homepage": "https://github.com/douglasnaphas/setty#readme",
+  "dependencies": {
+    "typescript": "^5.1.6"
+  }
+}
