@@ -1,5 +1,6 @@
 #!/usr/bin/env npx ts-node
 const program = require("commander");
+import { greeting } from "./lib/greeting";
 program.option("--name");
 
 program.parse();
@@ -7,6 +8,6 @@ program.parse();
 const options = program.opts();
 const name: string = options.name || "World";
 
-console.log(`Hello, ${name}`);
+console.log(greeting(name));
 
 export {};
