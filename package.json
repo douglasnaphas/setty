@@ -20,10 +20,8 @@
   },
   "homepage": "https://github.com/douglasnaphas/setty#readme",
   "dependencies": {
+    "@types/node": "^20.4.8",
     "commander": "^11.0.0",
     "typescript": "^5.1.6"
-  },
-  "devDependencies": {
-    "@types/node": "^20.4.8"
   }
 }
