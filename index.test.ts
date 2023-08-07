@@ -2,8 +2,8 @@
 // import {greeting2} from "./lib/greeting2";
 const imports = require(".");
 
-const greeting = imports.greeting.greeting;
-const greeting2 = imports.greeting2.greeting2;
+const greeting = imports.greeting;
+const greeting2 = imports.greeting2;
 describe("greetings", () => {
   test("...", () => {
     console.log(imports);

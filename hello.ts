@@ -1,6 +1,6 @@
 #!/usr/bin/env npx ts-node
 const program = require("commander");
-import { greeting } from "./lib/greeting";
+const greeting = require(".").greeting;
 program.option("--name");
 
 program.parse();
