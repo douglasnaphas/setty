@@ -2,6 +2,7 @@
   "name": "setty-ts",
   "version": "1.0.0",
   "description": "Manipulate sets.",
+  "type": "module",
   "main": "index.ts",
   "bin": {
     "hello": "./hello.ts"
